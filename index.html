@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packing Checklist Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Packing Checklist Generator</h1>
+
+        <p>Select your trip type & instantly generate a smart packing checklist to make sure you don't forget essentials!</p>
+
+        <div class="trip-section">
+            <h3>Select your trip type :</h3>
+            <button class="trip-btn" data-trip="vacation">Vacation</button>
+            <button class="trip-btn" data-trip="college">College</button>
+            <button class="trip-btn" data-trip="office">Office</button>
+        </div>
+        
+        <div class="items-section card"></div>
+
+        <p class="count-text">You've packed 0 out of 0 items.</p>
+
+        <button class="clear-btn">Clear</button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

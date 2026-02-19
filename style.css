@@ -169,3 +169,23 @@ body{
     color:white;
     opacity:1;
 }
+
+.item-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:8px;
+}
+
+.delete-btn{
+    background:transparent;
+    border:none;
+    cursor:pointer;
+    color:#ff6b6b;
+    font-size:14px;
+    transition:0.2s;
+}
+
+.delete-btn:hover{
+    transform:scale(1.2);
+}
